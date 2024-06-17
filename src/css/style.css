@@ -1,0 +1,66 @@
+html {
+  font-family: "Inter", sans-serif;
+  background-color: var(--neutral-dark);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  max-width: 350px;
+  background-color: var(--neutral-medium-dark); 
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.profile .picture{
+  border-radius: 50%;
+  height: 100px;
+  padding: 15px 0 15px 0;
+}
+
+.profile .name{ 
+  font-weight: 600;
+  color: var(--neutral-soft);
+  padding-bottom: 10px;
+}
+
+.profile .country {
+  font-size: 18.5px;
+  color: var(--primary-soft);
+}
+
+.profile p {
+  font-weight: 400;
+  color: var(--neutral-soft);
+  padding: 30px 0 20px 0;
+}
+
+.profile-media {
+  text-align: center;
+  font-weight: 700;
+}
+
+.profile-media a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 45px;
+  margin-bottom: 15px;
+  border-radius: 7.5px;  
+  background-color: var(--neutral-soft-dark);
+  color:rgb(255, 255, 255);
+}
+
+.profile-media a:hover {
+  background-color: rgb(197, 224, 114);
+  color: var(--neutral-dark);
+  transition: 0.3s ease-in-out; 
+}

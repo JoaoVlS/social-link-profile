@@ -60,7 +60,7 @@ main {
 }
 
 .profile-media a:hover {
-  background-color: rgb(197, 224, 114);
+  background-color: var(--primary-soft);
   color: var(--neutral-dark);
   transition: 0.3s ease-in-out; 
 }
